@@ -1,0 +1,5 @@
+// Synthetic example; not an excerpt from a real project.
+fn save_settings(store: &Store) -> &'static str {
+    let _ = store.write(); // Result is discarded.
+    "Saved"
+}

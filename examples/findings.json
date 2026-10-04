@@ -1,0 +1,22 @@
+{
+  "project": "Example project",
+  "scope": "Synthetic documentation example; not a finding about a real project.",
+  "coverage": ["Demonstrates the report format only. No application test was executed for this example."],
+  "findings": [
+    {
+      "id": "DEMO-001",
+      "title": "A failed write is displayed as saved",
+      "status": "synthetic demonstration",
+      "category": "error handling",
+      "confidence": "unknown",
+      "trigger": "A hypothetical storage write returns an error.",
+      "cause": "In this synthetic example, the caller discards the Result and always returns a success message.",
+      "evidence": ["examples/source.txt: synthetic code", "examples/failure.txt: synthetic expected/actual illustration"],
+      "impact": "The user may think an unsuccessful save completed.",
+      "correction": "Propagate or handle the write error before displaying success.",
+      "prevention": "Add a test where storage returns an error and assert that success is not displayed."
+    }
+  ],
+  "pr_review": [],
+  "test_review": []
+}

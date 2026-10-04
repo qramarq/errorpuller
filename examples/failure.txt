@@ -1,0 +1,4 @@
+Synthetic diagnostic illustration; this test was not executed.
+Trigger: the storage write returns an error.
+Expected UI message: Could not save
+Actual UI message in the hypothetical example: Saved

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "DEMO-001",
+    "title": "A failed write is displayed as saved",
+    "kind": "Synthetic documentation example",
+    "when": "A hypothetical storage write returns an error.",
+    "source": {"path": "source.txt", "label": "Synthetic Rust illustration", "start_line": 1, "line_count": 5},
+    "trigger": {"path": "failure.txt", "label": "Synthetic expected/actual illustration; not an executed test", "start_line": 1, "line_count": 4}
+  }
+]

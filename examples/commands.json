@@ -1,0 +1,9 @@
+[
+  {
+    "name": "rust-tests",
+    "program": "cargo",
+    "args": ["test", "--locked"],
+    "parser": "rust",
+    "timeout_seconds": 900
+  }
+]
